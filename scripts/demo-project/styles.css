@@ -1,0 +1,16 @@
+:root {
+  --orchid: #b9a7cc;
+  --orchid-deep: #8c76a3;
+  --gold: #d6c49e;
+  --quartz: #f5f2f5;
+  --mist: #b0bcc8;
+  --ink: #3a3440;
+}
+
+.quartz-card {
+  background: var(--quartz);
+  border: 1px solid var(--gold);
+  border-radius: 14px;
+  color: var(--ink);
+  padding: 16px 20px;
+}

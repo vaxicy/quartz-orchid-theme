@@ -1,0 +1,15 @@
+# Local / sensitive
+.codebuddy/
+
+# Build artifacts
+*.vsix
+
+# Temp
+.tmp/
+
+# Python
+__pycache__/
+*.pyc
+
+# Logo candidates (working folder, regenerate with scripts/generate-icon-candidates.py)
+assets/logo-candidates/

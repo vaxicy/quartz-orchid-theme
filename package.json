@@ -1,0 +1,47 @@
+{
+  "name": "quartz-orchid-theme",
+  "displayName": "Quartz Orchid Theme",
+  "description": "A quiet mineral palette: quartz white, grey orchid and pale gold in the light variant, a warm ink room with muted lilac accents in the dark one.",
+  "version": "1.0.0",
+  "publisher": "lilinhuang",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "light",
+    "dark",
+    "quartz",
+    "orchid",
+    "lilac",
+    "stone",
+    "minimal"
+  ],
+  "icon": "assets/icon.png",
+  "license": "SEE LICENSE IN LICENSE",
+  "galleryBanner": {
+    "color": "#23212A",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vaxicy/quartz-orchid-theme"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Quartz Orchid Theme Light",
+        "uiTheme": "vs",
+        "path": "./themes/quartz-orchid-light-color-theme.json"
+      },
+      {
+        "label": "Quartz Orchid Theme Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/quartz-orchid-dark-color-theme.json"
+      }
+    ]
+  }
+}
